@@ -1,0 +1,25 @@
+{
+  "name": "orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "pg": "^8.7.1",
+    "save-dev": "0.0.1-security",
+    "sequelize": "^6.11.0",
+    "sucrase": "^3.20.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
